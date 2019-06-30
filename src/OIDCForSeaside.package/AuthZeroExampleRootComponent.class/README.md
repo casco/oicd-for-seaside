@@ -1,1 +1,0 @@
-application := WAAdmin register: AuthZeroHome asApplicationAt: 'authZero'
