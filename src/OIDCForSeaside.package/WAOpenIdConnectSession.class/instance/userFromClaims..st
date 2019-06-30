@@ -1,0 +1,3 @@
+hooks
+userFromClaims: jsonWebSignature
+	^ jsonWebSignature

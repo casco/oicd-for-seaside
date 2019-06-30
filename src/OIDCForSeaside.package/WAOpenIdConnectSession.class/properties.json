@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "WASession",
+	"category" : "OIDCForSeaside-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"authenticated",
+		"authenticatedUser"
+	],
+	"name" : "WAOpenIdConnectSession",
+	"type" : "normal"
+}

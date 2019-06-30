@@ -1,0 +1,3 @@
+processing
+verifyUserToken
+	self verificationCertificate
