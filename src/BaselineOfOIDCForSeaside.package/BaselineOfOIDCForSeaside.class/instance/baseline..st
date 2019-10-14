@@ -3,10 +3,11 @@ baseline: spec
 	<baseline>
 	spec
 		for: #common
-		do: [ spec repository: 'github://casco/oicd-for-seaside'.
-			self neoJSON: spec.
-			self seaside: spec.
+		do: [ self
+				neoJSON: spec;
+				jSONWebToken: spec;
+				seaside: spec.
 			spec
-				package: 'OIDCForSeaside';
-				with: [ spec requires: #('NeoJson' 'Grease' 'Seaside3') ] ].
+				package: 'OIDCForSeaside'
+				with: [ spec requires: #('NeoJSON' 'Seaside3' 'JSONWebToken') ] ].
 	spec postLoadDoIt: #postLoadActions

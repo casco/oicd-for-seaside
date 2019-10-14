@@ -1,7 +1,5 @@
 dependencies
 jSONWebToken: spec
 	spec
-		project: 'JSONWebToken'
-		with: [ spec
-				baseline: 'JSONWebToken';
-				repository: 'github://noha/JSONWebToken:master/source' ]
+		baseline: 'JSONWebToken'
+		with: [ spec repository: 'github://noha/JSONWebToken:master/source' ]
